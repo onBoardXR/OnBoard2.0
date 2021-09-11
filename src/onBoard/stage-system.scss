@@ -1,0 +1,64 @@
+
+.nonDragSel {
+user-select: none;
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+-khtml-user-select: none;
+-o-user-select: none;
+user-drag: none;
+-webkit-user-drag: none;
+
+}
+
+.divCue {
+  pointer-events: auto;
+  position: absolute;
+  display: flex;
+  height: 30px;
+user-select: none;
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+-khtml-user-select: none;
+-o-user-select: none;
+user-drag: none;
+-webkit-user-drag: none;
+}
+
+.listLgCue {
+    display: flex;
+    width: 300px;
+}
+
+.lgCue {
+  pointer-events: auto;
+  cursor: pointer;
+  width: 30px;
+  position: relative; 
+  margin-right:10px;
+  user-select: none;
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+-khtml-user-select: none;
+-o-user-select: none;
+user-drag: none;
+-webkit-user-drag: none;
+}
+
+.nameCue {
+  align-self: center;
+  margin-right: 10px;
+  opacity: 0.5;
+  pointer-events: auto;
+  background-color: white;
+  user-select: none;
+user-select: none;
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+user-drag: none; 
+-webkit-user-drag: none;
+}
+
